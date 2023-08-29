@@ -24,6 +24,9 @@ python >= 3.11
 ## 開始準備
 
 ```
+cd csp2
 python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
+pre-commit install
 ```
