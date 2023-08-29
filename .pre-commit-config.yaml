@@ -4,5 +4,5 @@ repos:
       - id: lint
         name: lint
         entry: bash -c 'flake8 src && isort -c --diff src && black --check src'
-        language: system
+        language: python
         types: [python]
